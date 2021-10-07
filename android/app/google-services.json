@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "505547719252",
+    "project_id": "campus-portal-test",
+    "storage_bucket": "campus-portal-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505547719252:android:6da18f7ce72eaaa9a263c1",
+        "android_client_info": {
+          "package_name": "com.example.campus_portal_ustp_v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505547719252-tbuau1uhd48jp5mv1ek24bjm1srg0cc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_XHN9A7x7VK_9lN3c9hrbX5LEZAm0EAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505547719252-tbuau1uhd48jp5mv1ek24bjm1srg0cc2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
