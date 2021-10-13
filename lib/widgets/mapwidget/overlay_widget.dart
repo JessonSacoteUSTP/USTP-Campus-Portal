@@ -1,5 +1,4 @@
 import 'package:campus_portal_ustp_v2/helpers/global.dart';
-import 'package:campus_portal_ustp_v2/helpers/global.dart';
 import 'package:flutter/material.dart';
 
 class OverlayWidget extends StatelessWidget {
@@ -12,7 +11,7 @@ class OverlayWidget extends StatelessWidget {
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
+            children: const <Widget>[
               Icon(
                 Icons.touch_app,
                 color: Colors.white,

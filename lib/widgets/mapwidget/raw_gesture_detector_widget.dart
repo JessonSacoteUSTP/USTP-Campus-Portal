@@ -1,7 +1,5 @@
 import 'package:campus_portal_ustp_v2/helpers/global.dart';
 import 'package:campus_portal_ustp_v2/models/floorplan_model.dart';
-// import 'package:ustp_campus_portal/core/viewmodels/floorplan_model.dart';
-// import 'package:ustp_campus_portal/view/shared/global.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -83,7 +81,7 @@ class RawGestureDetectorWidget extends StatelessWidget {
           child: ScrollConfiguration(
             behavior: RemoveScrollGlow(),
             child: Padding(
-              padding: const EdgeInsets.all(20.0),
+              padding: EdgeInsets.all(20.0),
               child: child,
             ),
           ),

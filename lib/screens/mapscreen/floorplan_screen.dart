@@ -4,13 +4,6 @@ import 'package:campus_portal_ustp_v2/widgets/mapwidget/gridview_widget.dart';
 import 'package:campus_portal_ustp_v2/widgets/mapwidget/overlay_widget.dart';
 import 'package:campus_portal_ustp_v2/widgets/mapwidget/raw_gesture_detector_widget.dart';
 import 'package:campus_portal_ustp_v2/widgets/mapwidget/reset_button_widget.dart';
-// import 'package:ustp_campus_portal/core/viewmodels/floorplan_model.dart';
-// import 'package:ustp_campus_portal/view/shared/global.dart';
-// import 'package:ustp_campus_portal/view/widgets/appbar_widget.dart';
-// import 'package:ustp_campus_portal/view/widgets/gridview_widget.dart';
-// import 'package:ustp_campus_portal/view/widgets/overlay_widget.dart';
-// import 'package:ustp_campus_portal/view/widgets/raw_gesture_detector_widget.dart';
-// import 'package:ustp_campus_portal/view/widgets/reset_button_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -26,7 +19,7 @@ class FloorPlanScreen extends StatelessWidget {
         child: AppBarWidget(),
       ),
       body: ClipRRect(
-        borderRadius: BorderRadius.only(
+        borderRadius: const BorderRadius.only(
           topLeft: Radius.circular(20),
           topRight: Radius.circular(20),
         ),

@@ -1,5 +1,4 @@
 import 'package:campus_portal_ustp_v2/helpers/global.dart';
-//import 'package:ustp_campus_portal/view/shared/global.dart';
 import 'package:flutter/material.dart';
 
 class AppBarWidget extends StatelessWidget {
@@ -10,7 +9,7 @@ class AppBarWidget extends StatelessWidget {
       bottom: PreferredSize(
         preferredSize: Size.zero,
         child: Column(
-          children: <Widget>[
+          children: const <Widget>[
             Text(
               'Campus Map',
               style: TextStyle(

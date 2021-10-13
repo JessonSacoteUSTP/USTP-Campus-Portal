@@ -1,15 +1,11 @@
-import 'package:campus_portal_ustp_v2/helpers/utils.dart';
 import 'package:campus_portal_ustp_v2/models/buildings.dart';
 import 'package:flutter/material.dart';
 
 class BuildingList extends StatelessWidget {
   Building? buildings;
-
   Function? onCardClick;
-
   BuildingList({this.buildings, this.onCardClick});
-
-  //List<Buildings> buildings = Utils.getMockedBuildings();
+  
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
@@ -21,15 +17,6 @@ class BuildingList extends StatelessWidget {
       height: 100,
       child: Stack(
         children: [
-          // Positioned.fill(
-          //   child: ClipRRect(
-          //       borderRadius: BorderRadius.circular(20),
-          //       child: Image.asset(
-          //           'assets/imgs/' +
-          //               buildings!.imgName! +
-          //               '.png',
-          //           fit: BoxFit.cover)),
-          // ),
           Positioned(
             bottom: 0,
             left: 0,
@@ -53,12 +40,12 @@ class BuildingList extends StatelessWidget {
           Positioned(
               bottom: 0,
               child: Padding(
-                padding: const EdgeInsets.all(10),
+                padding: EdgeInsets.all(10),
                 child: Row(
                   children: [
                     Text(
                       this.buildings!.name!,
-                      style: TextStyle(color: Colors.white, fontSize: 25),
+                      style: const TextStyle(color: Colors.white, fontSize: 25),
                     ),
                   ],
                 ),

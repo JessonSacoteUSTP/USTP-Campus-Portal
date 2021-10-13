@@ -19,6 +19,8 @@ class BuildingServices {
     var data = snapshot.data() as Map;
     var buildingsData = data['buildings'] as List<dynamic>;
 
-    buildingsData.forEach((buildData) {});
+    buildingsData.forEach((buildData) {
+      _buildings.add(Building.fromJson(buildData));
+    });
   }
 }
